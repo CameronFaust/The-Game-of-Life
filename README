@@ -1,0 +1,38 @@
+Project 4: "The Game of Life"
+
+The Game of Life was invented by Cambridge mathematician John H. Conway to model the process of birth, survival and death. By the rules of the game, individuals require others to survive, but die as the result of overcrowding. 
+For our world, we will use two 2-dimensional arrays of chars (minimum size: 20 x 40). One array will be the current world, the other will hold the next generation. Each cell in the array holds either a "*" (a live organism) or a blank-- " "--(no organism).
+
+The game starts out with an initial generation, which consists of any mix of stars and blanks. This original array will be read in from a text file specified by the user. This file can be created using any text editor, such as notepad (do not use a word processor!).
+
+
+Three rules govern the transition from one generation to the next: 
+a.  Birth Rule: an organism is born into an empty cell that has exactly three living neighbors. 
+b.  Survival Rule: An organism survives from one generation to the next if it has either 2 or 3 living neighbor. 
+c.	Death Rule: An organism dies from loneliness if it has fewer than 2 neighbors. It dies from overcrowding if it has 4 or more neighbors. 
+
+
+In your version of the game, you will display the world one generation at a time. The user will press <Enter> to continue, and some other key to quit.
+
+
+Make Sure you test fully! Results depend on the initial colony. Some possible results: 
+• The colony quickly dies out 
+•	The colony rapidly expands (stopped only by the edge of the world). 
+•	the colony reaches a set stasis 
+•	the colony reaches an oscillating stasis (moves back and forth between 2 or more configurations) 
+
+
+The program, of course, should use top-down design, and must utilize modularly designed functions.
+
+
+Some suggestions for functions you should utilize:
+•	a function to read the file into the grid 
+•	a function to count the neighbors of any one cell 
+•	a function to calculate the next generation (which should call the previous function) 
+•	a function to print out one generation 
+•	a function to move the next generation to the current one (or swap pointers to the two generations) 
+
+
+This program is to be created by a group process. A group should be comprised of 3 - 5 students. When programming as a group, it is even more important that the project be fully planned in advance. Plan out, in advance, what each function needs as prerequisite conditions, as parameters, what the post-conditions are, and what the function returns. Make sure you test for all 4 possible outcomes, as well as checking that consecutive generations follow the rules. You may use the stand-allone java program The Game of Life for comparisons in your testing.
+
+Be user friendly. Make the directions easy to understand. Make the output understandable and usable.

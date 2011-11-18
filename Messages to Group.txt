@@ -1,0 +1,30 @@
+So I've messed with if for a few minutes and have got github functional!
+
+Just follow this tutorial to the t!
+
+http://help.github.com/win-set-up-git/
+
+I am personnaly a fan of GUI's so the way I have found to push a file is like this.[This is assuming you have already completed the tutorial successfully]
+
+1. Make any changes to your local files.
+
+2. Open Git GUI.
+
+3. Click the 'Rescan' button.
+ 3a. Your changes will show in the 'Unstaged Changes' list box.
+
+4. Click the 'State Changed' button.
+	4a. If you are adding files it will ask you about unknown files. Click 'Yes'.
+
+5. Type your commit message. [What you changed reason etc.]
+
+6. Click the 'Commit' button.
+
+7. If all goes well click the 'Push' button.
+
+8. Select your branch. [This is to make it so all our changes are separate, I am pretty sure we can merge the branches too]
+
+9. Click 'Push'.
+
+
+-Cameron
